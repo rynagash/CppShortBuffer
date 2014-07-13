@@ -1,6 +1,6 @@
-#include "ShourtBuffer.h"
+#include "ShortBuffer.h"
 
-ShortBuffer::ShortBuffer(int _bs = 1024)
+ShortBuffer::ShortBuffer(int _bs)
 {
 	buffer = NULL;
 	index = -1;
